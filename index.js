@@ -44,7 +44,7 @@ require('fs').readFile('map.txt', 'utf8', function(err, data) {
 });
 
 /**
- * Starting at a certain point on the map, and examine all possible points around it and determine is there is
+ * Starting at a certain point on the map, examine all possible points around it and determine if there is
  * another place to go. First calculate the current elevation, then compare it with the elevation of surrounding
  * points. When there is nowhere else to go, we have reached the end of the slope, so we can record the length
  * and drop of that slope.
