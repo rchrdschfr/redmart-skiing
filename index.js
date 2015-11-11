@@ -14,6 +14,7 @@ require('fs').readFile('map.txt', 'utf8', function(err, data) {
   var width = dimensions[0], height = dimensions[1]; //
   
   // put this map into a 2-dimensional array
+  var rowArray;
   lines.forEach(function(element, index, array) {
     if (element.length) {
       // make sure each element in this array is a number so we can do math on it
