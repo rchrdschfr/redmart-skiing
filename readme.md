@@ -4,7 +4,7 @@ This is a coding challenge [posted by RedMart](http://geeks.redmart.com/2015/01/
 
 ##Usage
 
-Install [Node.js](http://nodejs.org)
+Install [Node.js](http://nodejs.org). Then in the project folder, run
 
 ```
 node index.js
