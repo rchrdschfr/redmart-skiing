@@ -1,7 +1,7 @@
 {
   "name": "redmart-skiing",
   "version": "1.0.0",
-  "description": "Find the nicest ski slope!",
+  "description": "Redmart coding challenge to find the nicest ski slope.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
